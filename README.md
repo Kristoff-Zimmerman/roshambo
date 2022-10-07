@@ -5,10 +5,14 @@ A rock paper scissors game played against the computer
 WORKFLOW
 
 git pull origin main = will fetch and merge
+
 code
+
 git commit -a -m 'message' = add and commits with a message
+
 git push origin main
-git clone git@github.com:Kristoff-Zimmerman/brew-fw.git -- clones repository to local machine
+
+git clone git@github.com:Kristoff-Zimmerman/roshambo.git -- clones repository to local machine
 
 git status -s
 
