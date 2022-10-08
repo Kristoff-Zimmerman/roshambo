@@ -12,7 +12,6 @@ function generateMove() {
 function compareMoves() {
     let playerMove = window. prompt("Rock, Paper, or Scissors?").toLowerCase();
     let computerMove = generateMove();
-    let win;
     if (playerMove == computerMove) {
         console.log("It's a tie");
     } else if ((playerMove == "rock" && computerMove == "paper")
@@ -25,7 +24,7 @@ function compareMoves() {
     }
 }
 
-function playRound () {
+function playRound() {
 
     while (playerScore < 5 && computerScore < 5) {
         compareMoves();
