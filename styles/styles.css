@@ -3,3 +3,9 @@ body {
     text-align: center;
 }
 
+.container {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
